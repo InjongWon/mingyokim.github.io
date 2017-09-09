@@ -174,9 +174,19 @@ h1, h2, h3, h4, h5, h6
     margin-left: 2.5%;
   }
 
+  .box-content
+  {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .box-title
   {
+    margin: 0;
     width: 100%;
+    font-weight: 500;
     float: none;
   }
 
@@ -194,6 +204,11 @@ h1, h2, h3, h4, h5, h6
     display: none;
   }
 
+  .box-description
+  {
+    margin-top: 10px;
+  }
+
   .box-thumb
   {
     float: none;
@@ -201,6 +216,11 @@ h1, h2, h3, h4, h5, h6
     margin-left: 2.5%;
     width: 95%;
     margin-bottom: 10%;
+  }
+
+  .learn-more
+  {
+    text-decoration-line: underline;
   }
 
   .headshot
