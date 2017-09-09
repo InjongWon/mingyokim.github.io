@@ -8,6 +8,17 @@
   margin-bottom: 10px;
 }
 
+.paragraph
+{
+  margin:0;
+  padding-top: 10px;
+  font-family: Post Grotesk;
+  font-weight: 200;
+  font-size: 18px;
+  color: #4F4F4F;
+  padding-bottom: 10px;
+}
+
 .main
 {
   padding-left: 10%;
@@ -16,7 +27,7 @@
   /*padding-bottom: 5%;*/
 }
 
-.text-container
+.title-container
 {
   padding-left: 30%;
   padding-right: 30%;
@@ -157,9 +168,113 @@ h1, h2, h3, h4, h5, h6
   text-decoration-line: none;
 }
 
+.nav
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /*margin-top: 10%;*/
+  margin-bottom: 10%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.nav-line
+{
+  display: block;
+  float: left;
+  width: 100%;
+  /*sheight: 1px;*/
+  border: 0.5px solid #BDBDBD;
+}
+
+.nav-name
+{
+  width: 47.5%;
+  margin: 0;
+  padding-left: 2.5%;
+  padding-bottom: 1.5%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+  float: left;
+}
+
+.nav-home
+{
+  width: 47.5%;
+  margin: 0;
+  padding-right: 2.5%;
+  padding-bottom: 1.5%;
+  font-family: Post Grotesk;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: right;
+  float: right;
+  color: #4F4F4F;
+  text-decoration-line: none;
+}
+
+.project-thumb
+{
+  margin-left: 35%;
+  width: 30%;
+  margin-right: 35%;
+  margin-bottom: 20px;
+}
+
+.project-title
+{
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: #4F4F4F;
+}
+
+.project-date
+{
+  margin-top: 2.5%;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: center;
+  color: #4F4F4F;
+}
+
+.text-container
+{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.bullet
+{
+  margin: 0;
+  margin-left: 10%;
+}
+
+ul
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li
+{
+  padding-left: 3.5%;
+  margin:0;
+  padding-top: 5px;
+  font-family: Post Grotesk;
+  font-weight: 200;
+  font-size: 18px;
+  color: #4F4F4F;
+  padding-bottom: 5px;
+}
+
 @media only screen and (max-width: 768px)
 {
-  .text-container
+  .title-container
   {
     padding: 0;
     padding-left: 2.5%;
@@ -226,5 +341,34 @@ h1, h2, h3, h4, h5, h6
   .headshot
   {
     width: 45%;
+  }
+
+  .text-container
+  {
+    padding: 0;
+  }
+
+  .bullet
+  {
+    margin-left: 0;
+  }
+
+  .nav
+  {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15%;
+    /*margin-left: 5%;
+    margin-right: 5%;*/
+  }
+
+  .nav-name
+  {
+    font-size: 18px;
+  }
+
+  .nav-home
+  {
+    font-size: 18px;
   }
 }
