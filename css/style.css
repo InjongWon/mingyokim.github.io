@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6
   font-family: Roboto;
   font-weight: 500;
   font-size: 24px;
-  color: black;
+  color: #4F4F4F;
   float: left;
 }
 
@@ -293,6 +293,7 @@ li
   font-family: Post Grotesk;
   font-size: 30px;
   font-weight: 200;
+  color: #4F4F4F;
 }
 
 .project-sub-section
@@ -301,6 +302,7 @@ li
   font-family: Post Grotesk;
   font-size: 18px;
   font-weight: 500;
+  color: #4F4F4F;
 }
 
 .source
@@ -324,6 +326,25 @@ li
 {
   color: black;
   /*text-decoration-line: none;*/
+}
+
+.mobile-screen-1
+{
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.mobile-screen-2
+{
+  width: 45%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  float: left;
 }
 
 @media only screen and (max-width: 768px)
