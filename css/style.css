@@ -162,5 +162,44 @@ h1, h2, h3, h4, h5, h6
   .text-container
   {
     padding: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .box
+  {
+    width: 95%;
+    float: none;
+    margin: 0;
+    margin-left: 2.5%;
+  }
+
+  .box-title
+  {
+    width: 100%;
+    float: none;
+  }
+
+  .box-date
+  {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+
+  .box-thumb
+  {
+    float: none;
+    margin: 0;
+    margin-left: 2.5%;
+    width: 95%;
+    margin-bottom: 10%;
+  }
+
+  .headshot
+  {
+    width: 45%;
   }
 }

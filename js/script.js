@@ -1,31 +1,14 @@
-$(document).ready(function() {
-  $("#thumb-aupera").css("height", $("#box-aupera").height() + 2);
-});
+var list = ["aupera", "snapcat", "busnapper", "airbnb"];
 
-$(document).ready(function() {
-  $("#thumb-snapcat").css("height", $("#box-snapcat").height() + 2);
-});
+var adjust = function() {
+  var width = $(window).width();
+  var index;
+  for( index=0; index<list.length; index++)
+  {
+    if( width > 768 ) $("#thumb-"+list[index]).css("height", $("#box-"+list[index]).height() + 2);
+    else              $("#thumb-"+list[index]).css("width", $("#box-"+list[index]).width() + 2);
+  }
+};
 
-$(document).ready(function() {
-  $("#thumb-busnapper").css("height", $("#box-busnapper").height() + 2);
-});
-
-$(document).ready(function() {
-  $("#thumb-airbnb").css("height", $("#box-airbnb").height() + 2);
-});
-
-$(window).resize(function() {
-  $("#thumb-aupera").css("height", $("#box-aupera").height() + 2);
-});
-
-$(window).resize(function() {
-  $("#thumb-snapcat").css("height", $("#box-snapcat").height() + 2);
-});
-
-$(window).resize(function() {
-  $("#thumb-busnapper").css("height", $("#box-busnapper").height() + 2);
-});
-
-$(window).resize(function() {
-  $("#thumb-airbnb").css("height", $("#box-airbnb").height() + 2);
-});
+$(document).ready(adjust());
+$(window).resize(adjust());
