@@ -23,5 +23,9 @@ $(window).resize(function() {
 });
 
 $(window).resize(function() {
+  $("#thumb-busnapper").css("height", $("#box-busnapper").height() + 2);
+});
+
+$(window).resize(function() {
   $("#thumb-airbnb").css("height", $("#box-airbnb").height() + 2);
 });
