@@ -2,7 +2,7 @@
 {
   margin-top: 10px;
   font-family: Post Grotesk;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 18px;
   color: #4F4F4F;
   margin-bottom: 10px;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6
 
 .job-title
 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
   /*font-size: 1.75em;*/
 
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6
 
 .section-title
 {
-  font-weight: 400;
+  font-weight: 300;
   color: black;
   font-size: 36px;
   text-align: center;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6
 .box-title
 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 300;
   width: 60%;
   float: left;
 }
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6
 .box-date
 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 300;
   width: 40%;
   float: right;
   text-align: right;
@@ -140,14 +140,14 @@ h1, h2, h3, h4, h5, h6
 .box-link
 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   text-decoration-line: underline;
 }
 
 .box-description
 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .learn-more
