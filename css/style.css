@@ -374,7 +374,7 @@ li
   color: #4F4F4F;
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 900px)
 {
   .title-container
   {

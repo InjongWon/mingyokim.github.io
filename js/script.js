@@ -5,7 +5,7 @@ var adjust = function() {
   var index;
   for( index=0; index<list.length; index++)
   {
-    if( width > 768 )
+    if( width > 900 )
     {
       $("#thumb-"+list[index]).css("height", $("#box-"+list[index]).height() + 2);
     }
