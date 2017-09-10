@@ -18,4 +18,4 @@ var adjust = function() {
 };
 
 $(document).ready(adjust());
-$(window).resize(adjust());
+$(window).on('resize', adjust);

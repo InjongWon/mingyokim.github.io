@@ -24,7 +24,6 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10%;
-  /*padding-bottom: 5%;*/
 }
 
 .title-container
@@ -35,7 +34,6 @@
 
 .headshot
 {
-  /*margin-top: 8px;*/
   width: 30%;
   margin-bottom: 20px;
 }
@@ -120,15 +118,11 @@ h1, h2, h3, h4, h5, h6
 {
   float: left;
   width: 30%;
-  /*margin-left: 10%;
-  width: 20%;*/
 }
 
 .box-thumb img
 {
   float: right;
-  /*height: 100%;
-  overflow: hidden;*/
 }
 
 .box-content
