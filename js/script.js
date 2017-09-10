@@ -18,6 +18,7 @@ var adjust = function() {
     else
     {
       $("#thumb-"+list[index]).css("width", $("#box-"+list[index]).width()+2);
+      $("#thumb-"+list[index]).css("height", $("#box-"+list[index]).width()+2);
     }
   }
 
