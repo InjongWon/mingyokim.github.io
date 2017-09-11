@@ -381,6 +381,12 @@ li
   color: #4F4F4F;
 }
 
+.animate-3
+{
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+}
+
 @media only screen and (max-width: 768px)
 {
   .title-container
