@@ -24,6 +24,21 @@
   object-position: right;
 }
 
+#img-clio {
+  margin: 0;
+  object-fit: contain;
+  object-position: right;
+  width: 80%;
+  background-color: #0075bb;
+  padding: 10%;
+}
+
+#thumb-clio {
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+
 .main
 {
   padding-left: 10%;
@@ -458,6 +473,10 @@ li
 
   .box-thumb img
   {
+    float: none;
+  }
+
+  #thumb-clio {
     float: none;
   }
 
