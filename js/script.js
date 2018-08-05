@@ -1,4 +1,4 @@
-var list = [ "clio", "aupera", "snapcat", "busnapper", "airbnb" ];
+var list = [ "clio", "aupera", "nwhacks", "snapcat", "busnapper", "airbnb" ];
 
 var adjust = function() {
   var index;
