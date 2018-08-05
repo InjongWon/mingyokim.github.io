@@ -30,7 +30,9 @@ var adjust = function() {
       $("#thumb-"+list[index]).css("height", max_width);
       $("#thumb-"+list[index]).css("width", max_width);
     }
+    $("#thumb-snowbots").css("height", max_width);
   }
+
 };
 
 $(document).ready(adjust());
