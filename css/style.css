@@ -20,15 +20,10 @@
   padding-bottom: 10px;
 }
 
-#thumb-snowbots {
-  object-fit: contain;
-  object-position: right;
-}
-
 #img-clio {
   margin: 0;
   object-fit: contain;
-  object-position: right;
+  object-position: center;
   width: 80%;
   background-color: #0075bb;
   padding: 10%;
@@ -38,6 +33,21 @@
   float: right;
   display: flex;
   justify-content: center;
+}
+
+#thumb-nwhacks {
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+
+#img-nwhacks {
+  margin: 0;
+  object-fit: contain;
+  object-position: center;
+  width: 80%;
+  background-color: #1C205D;
+  padding: 10%;
 }
 
 .main
@@ -55,7 +65,7 @@
 
 .headshot
 {
-  width: 30%;
+  width: 40%;
   margin-bottom: 20px;
 }
 
@@ -481,6 +491,10 @@ li
   }
 
   #thumb-clio {
+    float: none;
+  }
+
+  #thumb-nwhacks {
     float: none;
   }
 

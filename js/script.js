@@ -1,4 +1,4 @@
-var list = [ "clio", "aupera", "nwhacks", "snapcat", "busnapper", "airbnb" ];
+var list = [ "clio", "aupera", "snowbots", "nwhacks", "snapcat", "busnapper", "airbnb" ];
 
 var adjust = function() {
   var index;
@@ -30,7 +30,6 @@ var adjust = function() {
       $("#thumb-"+list[index]).css("height", max_width);
       $("#thumb-"+list[index]).css("width", max_width);
     }
-    $("#thumb-snowbots").css("height", max_width);
   }
 
 };
