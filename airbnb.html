@@ -102,7 +102,7 @@
 					<div>
 						<h4 class="project-sub-section wow fadeInLeft">2. Creating a database</h4>
 						<p class="paragraph">Now that we have all the csv files available for us to use, we can start creating a database. When I was working on the project, I had no knowledge in databases at all, so the database techniques that I used are not the most efficient.</p>
-						<p class="paragraph">That being said, I created a single table (although I probably should have created one for each city) with four columns: city, latitude, longitude, and price, and with each row representing a single listing.</p>
+						<p class="paragraph">That being said, I created a single table with four columns: city name, latitude, longitude, and price, and with each row representing a single listing.</p>
 						<p class="paragraph">Initially, creating the database took approximately 20 minutes, and I wondered why it was so slow. It turned out that I had one transaction for each operation. I reduced the time to less than a second by doing all operations in one transaction.</p>
 					</div>
 					<div>
@@ -115,7 +115,8 @@
 				</div>
 				<div class="group group-2 wow fadeInUp">
 					<h3 class="project-section">Rooms for improvement</h3>
-					<p class="paragraph">This web app is certainly functional. However, it can definitely use a lot of improvement in the UI design and processing time. As of now, it can take up to 10 seconds to load a heatmap. This can definitely be sped up by better organizing the database.</p>
+					<p class="paragraph">This web app is certainly functional. However, it can definitely use a lot of improvement in the UI design and processing time. As of now, it can take up to 10 seconds to load a heatmap. This can definitely be sped up with a better database structure. </p>
+					<p class="paragraph">For example, adding indices on the city column would have saved a lot of time, since the app is always filtering by city. Furthermore, storing the city by id rather than the full name would make the filtering a lot faster, since integer comparison is more performant than string.</p>
 					<p class="paragraph">Furthermore, automatically keeping the database up to date would be a nice feature to add.</p>
 				</div>
       </div>
