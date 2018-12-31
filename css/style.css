@@ -20,6 +20,14 @@
   padding-bottom: 10px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.inherit-color {
+  color: inherit;
+}
+
 #img-clio {
   margin: 0;
   object-fit: contain;
